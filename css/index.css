@@ -1,0 +1,126 @@
+body,ul,h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    color:#333;
+    text-decoration: none;
+}
+.song_reco, .new_song, .brilliant{
+    padding: 50px 0px;
+}
+.reco_con, .song_con, .bri_con{
+    width: 1200px;
+    margin:0 auto;
+}
+.tit{
+    font-size: 30px;
+    color: #333;
+    letter-spacing: 14px;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 34px;
+}
+.reco_list{
+    overflow: hidden;
+}
+.reco_list li{
+    width: 224px;
+    float: left;
+    margin-right: 20px;
+}
+.reco_list .nomargin{
+    margin-right: 0;
+}
+.list_pic img{
+    width: 224px;
+    vertical-align: top;
+}
+.list_tit{
+    font-size: 14px;
+    font-weight: normal;
+    color: #333;
+    line-height: 28px;
+    margin-top: 6px;
+}
+
+/* 新歌首发 */
+.tab{
+    overflow: hidden;
+    padding-left: 360px;
+}
+.tab a{
+    font-size: 14px;
+    line-height: 22px;
+    float: left;
+    margin-right: 52px;
+}
+.song_list{
+    overflow: hidden;
+}
+.song_list li{
+    padding: 12px 0px;
+    overflow: hidden;
+    border-bottom: 1px solid #f2f2f2;
+    width: 380px;
+    float: left;
+    margin-right: 30px;
+}
+.song_list .nomargin{
+    margin-right: 0px;
+}
+.pic,.txt,.time{
+    float: left;
+}
+.txt{
+    padding: 19px 0px 17px 0px;
+    width: 200px;
+    margin: 0px 38px 0px 14px;
+}
+.pic{
+    width: 86px;
+    height: 86px;
+}
+.pic img{
+    width: 86px;
+}
+.txt h3{
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: normal;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.txt p{
+    font-size: 14px;
+    line-height: 25px;
+}
+.txt p a{
+    color: #999;
+}
+.time{
+    font-size: 14px;
+    color: #999;
+    line-height: 86px;
+}
+
+/* 精彩推荐 */
+.bri_list{
+    overflow: hidden;
+}
+.bri_list li{
+    width: 590px;
+    height: 235px;
+    float: left;
+}
+.bri_list li img{
+    width: 590px;
+}
+.bri_list .flo_rig{
+    float: right;
+}
+
