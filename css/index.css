@@ -1,4 +1,4 @@
-body,ul,h1,h2,h3,h4,h5,h6,p{
+body,ul,h1,h2,h3,h4,h5,h6,p,li{
     margin: 0;
     padding: 0;
 }
@@ -12,10 +12,10 @@ a{
     color:#333;
     text-decoration: none;
 }
-.song_reco, .new_song, .brilliant, .new_disc, .rank{
+.song_reco, .new_song, .brilliant, .new_disc, .rank, .mv{
     padding: 50px 0px;
 }
-.reco_con, .song_con, .bri_con, .disc_con, .rank_con{
+.reco_con, .song_con, .bri_con, .disc_con, .rank_con, .mv_con{
     width: 1200px;
     margin:0 auto;
 }
@@ -194,6 +194,7 @@ a{
     height: 567px;
     background:url(../images/bg_index_top.jpg) no-repeat;
     float: left;
+    margin-right: 20px;
 }
 
 .rank_list h3{
@@ -210,6 +211,66 @@ a{
     display: block;
     height: 2px;
     width: 36px;
-    color: #fff;
+    background: #fff;
     margin: 44px auto 36px;
+}
+
+.list_del li{
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.rank_del div{
+    float: left;
+}
+
+.list_del .num{
+    float: left;
+    margin-right: 12px;
+}
+
+.list_del{
+    font-size: 14px;
+    color: #fff;
+    padding: 0px 30px;
+}
+
+.list_del .rank_txt{
+    float: left;
+}
+
+.list_del .rank_txt a{
+    color: #fff;
+}
+
+.rank_txt p{
+    margin-bottom: 10px;
+}
+
+.rank_list .item2{
+    background-position: -224px 0px;
+}
+
+.rank_list .item3{
+    background-position: -448px 0px;
+}
+
+.rank_list .item4{
+    background-position: -672px 0px;
+}
+
+.rank_list .item5{
+    margin-right: 0px;
+    background-position: -896px 0px;
+}
+
+/* mv */
+.mv_nav{
+    overflow: hidden;
+    padding-left: 360px;
+}
+
+.mv_nav li{
+    float: left;
+    margin-right: 50px;
 }
