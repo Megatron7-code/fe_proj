@@ -324,6 +324,10 @@ a{
     margin: 0px 20px 35px 0px;
 }
 
+.mv_item .nomargin{
+    margin-right: 0px;
+}
+
 /* foot */
 .foot{
     background: #333;
