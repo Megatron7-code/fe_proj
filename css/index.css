@@ -1,4 +1,4 @@
-body,ul,h1,h2,h3,h4,h5,h6,p,li,input,button,a{
+body,ul,h1,h2,h3,h4,h5,h6,p,li,input,button,a,i{
     margin: 0;
     padding: 0;
 }
@@ -598,28 +598,65 @@ a{
     position: absolute;
     left: 698px;
     border: 1px solid #c9c9c9;
-    width: 222px;
+    width: 210px;
+    height: 35px;
     border-radius: 2px;
     padding-left: 10px;
 }
 
 .search_con input{
+    height: 35px;
     line-height: 35px;
-    width: 180px;
-    text-align: center;
+    width: 175px;
+    float: left;
 }
 
 .input_btn{
-    height: 33px;
-    width: 36px;
+    height: 35px;
+    width: 33px;
 }
 
 .search_icon{
-    margin-top: 3px;
     height: 16px;
     width: 16px;
     background: url(../images/icon_sprite.png) no-repeat 0px -40px;
     display: block;
     float: left;
     outline: none;
+}
+
+.btn{
+    position: absolute;
+    top: 24px;
+    right: 0px;
+    line-height: 40px;
+}
+
+.btn a{
+    display: block;
+    float: left;
+    margin-right: 10px;
+    line-height: 35px;
+    font-size: 14px;
+}
+
+.login{
+    color: #333;
+    font-size: 16px;
+}
+
+.vip{
+    width: 100px;
+    text-align: center;
+    background-color: #31c27c;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 2px;
+}
+
+.charge{
+    width: 60px;
+    border: 1px solid #999;
+    text-align: center;
+    border-radius: 2px;
 }
