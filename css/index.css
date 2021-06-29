@@ -542,6 +542,7 @@ a{
 /* header */
 .head_con{
     position: relative;
+    padding-top: 90px;
 }
 
 .logo{
@@ -554,6 +555,7 @@ a{
     overflow: hidden;
     position: absolute;
     left: 200px;
+    top: 0px;
 }
 
 .head_nav li{
@@ -594,7 +596,8 @@ a{
 }
 
 .search{
-    position: relative;
+    position: absolute;
+    top: 0px;
 }
 
 .search_con{
@@ -663,4 +666,23 @@ a{
     border: 1px solid #999;
     text-align: center;
     border-radius: 2px;
+}
+
+.subnav{
+    border-top:1px solid #f2f2f2;
+    padding-left: 200px;
+    padding-bottom: 50px;
+}
+
+.subnav a{
+    display: block;
+    float: left;
+    margin-right: 47px;
+    color: #000;
+    line-height: 51px;
+}
+
+.song_reco, .new_song, .brilliant, .new_disc, .rank, .mv{
+    background: url(../images/bg_detail.jpg) repeat-x;
+    padding: 50px 0px;
 }
