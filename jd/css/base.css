@@ -1,0 +1,17 @@
+body{
+    font: 14px/1.5 Helvetica;
+    color: #333;
+    width: 1190px;
+    background-color: #f4f4f4;
+}
+
+.w{
+    width: 1190px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+
