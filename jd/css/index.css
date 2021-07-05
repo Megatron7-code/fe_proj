@@ -126,11 +126,11 @@
     vertical-align: middle;
 }
 
-.topbar .heighlight{
+.topbar .highlight{
     color: #e51018;
 }
 
-.topbar a, .topbar span, .topbar .heighlight i{
+.topbar a, .topbar span, .topbar .highlight i{
     color: #999;
 }
 
@@ -146,4 +146,177 @@
 .chosen_location:hover{
     background-color: #e51018!important;
     color: #fff!important;
+}
+
+/* 右侧导航 */
+.topbar .topbar-info{
+    float: right;
+}
+
+.topbar-info li, .topbar-info span{
+    float: left;
+    /* margin: 0px 5px;
+    text-align: center; */
+}
+
+.topbar .location>a, .topbar .topbar-info a {
+    display: block;
+    height: 30px;
+}
+
+.topbar a, .topbar span, .topbar .highlight i {
+    /* 垂直方向对其，必须对父级元素设置了line-heigh */
+    vertical-align: middle;
+}
+
+.topbar a, .topbar span, .topbar .highlight i{
+    color: #999;
+}
+
+.topbar .highlight{
+    color: #e51018;
+}
+
+.line{
+    font-size: 10px;
+    font-weight: 100;
+    color: #ccc;
+    margin: 0px 12px;
+}
+
+.topbar-info li:first-of-type{
+    margin-right: 8px;
+}
+
+.topbar-info a:hover{
+    color:#e51018;
+}
+
+.topbar-info a:hover i{
+    color: #999;
+}
+
+.qrcode-wrapper{
+    position: relative;
+}
+
+.qrcode{
+    position: absolute;
+    width: 76px;
+    height: 76px;
+    right: 0;
+    top: 35px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
+}
+
+.qrcode img{
+    width: 60px;
+    height: 60px;
+    margin: 8px;
+}
+
+.qrcode-drop{
+    position: absolute;
+    left: -116px;
+    top: -5px;
+    width: 190px;
+    height: 404px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    display: none;
+    /* overflow: hidden; */
+}
+
+.qrcode-wrapper:hover .qrcode-drop{
+    display: block;
+}
+
+.qrcode:hover .qrcode-drop{
+    display: block;
+}
+
+.qrcode-drop div{
+    width: 190px;
+    height: 70px;
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+}
+
+.qrcode-drop div img{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    padding: 3px;
+    margin: 0;
+    border: 1px solid #ddd;
+    top: 12px;
+    left: 5.5px;
+}
+
+.qrcode-drop div p, .qrcode-drop div a{
+    position: absolute;
+    font-size: 12px;
+}
+
+.qrcode-drop div p{
+    width: 94px;
+    height: 16.8px;
+    line-height: 16.8px;
+}
+
+.qrcode-drop div p:nth-of-type(1){
+    top: 14px;
+    right: 10px;
+    font-weight: bold;
+    color: #666;
+}
+
+.qrcode-drop div p:nth-of-type(2){
+    top: 33px;
+    right: 10px;
+    color: #d6291d;
+}
+
+.qrcode-drop div a{
+    width: 94px;
+    height: 25px;
+    line-height: 25px;
+    right: 10px;
+    bottom: 20px;
+}
+
+.qrcode-drop div a span{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url(../img/qrcode/sprite.png);
+}
+
+.qrcode-drop div a span:nth-of-type(2){
+    background-position: center;
+}
+
+.qrcode-drop div a span:nth-of-type(3){
+    background-position: bottom;
+}
+
+/* logo、搜索、关键词 */
+.header-wrapper{
+    width: 100%;
+    height: 141px;
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+}
+
+.header{
+    position: relative;
+    height: 100%;
+}
+
+.logo a{
+    display: block;
+    width: 190px;
+    height: 120px;
+    background-image: url(../img/header/sprite.png);
 }
